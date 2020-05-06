@@ -1,4 +1,4 @@
 <h1>AWWW Reddit</h1>
 <div *ngFor="let p of posts?.data.children">
-    <app-single-result [myPost]="p"></app-single-result>
+    <app-single-result [myPost]="p.data"></app-single-result>
 </div>
